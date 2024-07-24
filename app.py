@@ -17,7 +17,7 @@ st.set_page_config( menu_items={"about":"This page was created by Victor Camacho
 image_id='1zfFcvWC7L05vXZCcgZ4mgK7qmTna6ewP'
 image_url=f'https://drive.google.com/uc?export=view&id={image_id}'
 response= requests.get(image_url)
-st.image(response.content,caption='Powered by OpenAI', use_column_width=True)
+st.image(response.content,caption='Powered by OpenAI ֎', use_column_width=True)
 st.header("CONSULTA DE PROCEDIMIENTOS ADUANEROS")
 st.markdown(
     """
