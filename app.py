@@ -13,7 +13,7 @@ from langchain.chains.question_answering import load_qa_chain
 
 #Configuración visual de la página web con streamlit
 
-st.set_page_config( menu_items={"about":"This page was created by Victor Camacho G. for contact mail to vsmacho@gmail.com"},page_title="CHATBOT_MZ",page_icon="https://raw.githubusercontent.com/VSCAMACHO1104/CHATBOT_MZ/main/logonavegadorCHATBOTMZ.png?token=GHSAT0AAAAAACVHWV62QDHHXHB6GZ4ASY3AZVAZZDQ")
+st.set_page_config( menu_items={"about":"This page was created by Victor Camacho G. for contact mail to vsmacho@gmail.com"},page_icon="https://raw.githubusercontent.com/VSCAMACHO1104/CHATBOT_MZ/main/logonavegadorCHATBOTMZ.png?token=GHSAT0AAAAAACVHWV62QDHHXHB6GZ4ASY3AZVAZZDQ")
 image_id='1zfFcvWC7L05vXZCcgZ4mgK7qmTna6ewP'
 image_url=f'https://drive.google.com/uc?export=view&id={image_id}'
 response= requests.get(image_url)
